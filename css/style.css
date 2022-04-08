@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color:#F8E1FA;
+}
+.title1 {
+    color:#fff;
+    font-size: 64px;
+    text-transform: uppercase;
+    max-width: 900px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.bg {
+    background-image: url(img/i.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+    margin: -20px;
+}
+nav{
+    list-style: none;
+    display: flex;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 11px;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 780px;
+    margin-left: 500px;
+}
+li{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    color: #fff;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+}
+.box
+{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 100px;
+    align-items: flex-start;
+    margin-top: 56px;
+    margin-bottom: 85px;
+}
+.box > div {
+    flex-basis: 31.5%;
+    max-width: 31.5%;
+}
+.box img {
+    width: 100%;
+}
+.box h3 {
+    position: relative;
+    padding-top: 28px;
+    margin-top: 43px;
+    letter-spacing: 1.4px;
+}
+.box h3::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 6px;
+    background-color:#fff;
+}
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 61px;
+}
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    background-color: #E5A5D7;
+}
+.box-feedback{
+    text-align: center;
+    display:flex;
+    margin-top: 59px;
+    margin-bottom: 147px;
+    margin-left: auto;
+}
+.footer {
+    background: #E5A5D7;
+    padding: 30px 0 29px;
+    margin-top: 129px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #fff;
+}
