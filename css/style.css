@@ -19,7 +19,7 @@ body {
     padding-top: 120px;
 }
 .bg {
-    background-image: url(img/i.webp);
+    background-image: url(img/bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
